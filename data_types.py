@@ -13,14 +13,6 @@ print(c)
 print(d)
 print(e)
 
-winter_essentials = ['Gloves', 'Beanie', 'Boots', 'Leg warmers']            # List type
-do = re = me = fa = winter_essentials
-
-print(do)
-print(re)
-print(me)
-print(fa)
-
 # Concatenation
 name_surname = "Lindelwa " + "Twala"
 print(name_surname)

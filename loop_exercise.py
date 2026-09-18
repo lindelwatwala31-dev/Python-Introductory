@@ -25,17 +25,23 @@ while number < 5:
     if number == 3:
         break
     number = number + 1
+print("======================")
     
 # No.2
 a = [0,1,2,3,4,5]    
 for x in a:
+    if x == 2:
+        break
     print(x)
 print("-------------------------------------------------------")
+
 i = 0
 while i < 5:
+    if i == 3:
+        break
     print(i)
-    i += 1
-    
+    i += 1  
+print("==============================================")    
            
 # Else statement
 number = 1
@@ -57,6 +63,21 @@ while number < 5:
     print(number)
 else:
     print("No longer < 5")  
+# Continue - continued
+a = [0,1,2,3,4,5]    
+for x in a:
+    if x == 2:
+        continue                                            # Will skip 2 and return 0,1,3,4,5
+    print(x)
+print("-------------------------------------------------------")
+
+i = 0
+while i < 5:
+    i += 1  
+    if i == 3:
+        continue                                            # Will skip 3 and return 1,2,4,5
+    print(i) 
+print("==============================================")  
              
 # In loops
 A = [0, 1, 2, 3, 4, 5]                              # list
