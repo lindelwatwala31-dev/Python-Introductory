@@ -1,7 +1,7 @@
 # While loop
 x = 0
 while x < 6:
-    print("Current value of x", x)
+    print("Current value of x is =", x)
     x = x + 1
 else:
     print("Loop is complete")   
@@ -119,7 +119,7 @@ E = {"name": 'Linda', "age": 22}                    # dictionary
 for i in E.values():
     print(i)
 for x, y in E.items():
-    print(x, " ", y)    
+    print(x, "-", y)    
     
 print("D" in D)
 

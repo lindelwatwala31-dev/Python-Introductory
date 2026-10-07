@@ -62,6 +62,7 @@ colours = {"Red", "Brown", "Black", "Pink"}
 print(colours)
 all_numbers = {3,5,7,9,11,3,9,0,7}                         # Will remove duplicates
 print(all_numbers)
+print(type(colours))
 
 # Boolean - true or false
 b = 10 > 5                                         
